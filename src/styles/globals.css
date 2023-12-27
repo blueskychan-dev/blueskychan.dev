@@ -2,13 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+html {
+  /* Apply background styles to the html element */
   --background-image: url("/illust_111261733_20231222_212212.jpg");
-
   background-image: var(--background-image);
-  background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
+  background-position: center center;
   color: rgb(255, 255, 255);
+  height: 100%; /* Ensure full height */
+  
+}
+
+body {
+  /* Ensure body also fills viewport */
   height: 100%;
 }
