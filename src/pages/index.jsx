@@ -3,7 +3,7 @@ import About from "~/components/About"
 import Avatar from "~/components/Avatar"
 import Profile from "~/components/Profile"
 import SocialLinks from "~/components/SocialLinks"
-import Head from "next/Head"
+import Head from 'next/head'
 
 const inter = Inter({ subsets: ["latin"] })
 
