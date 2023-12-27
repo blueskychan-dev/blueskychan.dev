@@ -30,9 +30,14 @@ export async function getStaticProps({ params: { slug } }) {
 export default function PostPage({ frontmatter, content }) {
   console.log(frontmatter.tags)
   const postTags = frontmatter.tags.map((tag) => (
-      <div className="inline-block border-2 rounded-md p-1 w-fit h-fit font-bold text-lg mr-1" key={tag.toString()}>{tag}</div>
-      ));
-  
+    <div
+      className="inline-block border-2 rounded-md p-1 w-fit h-fit font-bold text-lg mr-1"
+      key={tag.toString()}
+    >
+      {tag}
+    </div>
+  ))
+
   const proseClass =
     "prose p-4 prose-invert prose-neutral mx-auto bg-gray-700/50 backdrop-blue-md backdrop-blur-md h-100"
   return (
@@ -46,7 +51,6 @@ export default function PostPage({ frontmatter, content }) {
         <meta name="twitter:description" content={frontmatter.desc} />
       </Head>
       <div className={proseClass}>
-
         <p className="font-bold text-md">{frontmatter.date}</p>
         <h1 className="border-b-2 p-1">{frontmatter.title}</h1>
         <div>{postTags}</div>
