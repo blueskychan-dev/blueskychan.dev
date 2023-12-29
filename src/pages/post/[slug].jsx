@@ -28,7 +28,6 @@ export async function getStaticProps({ params: { slug } }) {
 }
 
 export default function PostPage({ frontmatter, content }) {
-
   const postTags = frontmatter.tags.map((tag) => (
     <div
       className="inline-block border-2 rounded-md p-1 w-fit h-fit font-bold text-lg mr-1"

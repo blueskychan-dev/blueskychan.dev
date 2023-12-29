@@ -9,9 +9,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 export default function Home() {
   return (
-    <main
-      className={`flex min-h-screen items-center justify-center ${inter.className}`}
-    >
+    <>
       <Head>
         <title>About blueskychan_ :3</title>
         <meta property="og:title" content="Hello, World! >3" key="title" />
@@ -20,16 +18,21 @@ export default function Home() {
           content="About some stupid person call blueskychan, aka Fuse/Mind :3"
         />
       </Head>
-      <div className="backdrop-blur-md bg-gray-700/50 rounded-lg p-2">
-        <div className="flex flex-row space-x-3 p-4 items-center ">
-          <Avatar />
-          <Profile />
+
+      <main
+        className={`flex min-h-screen items-center justify-center ${inter.className}`}
+      >
+        <div className="backdrop-blur-md bg-gray-700/50 rounded-lg p-3 max-w-md md:max-w-lg overflow-hidden overflow-ellipsis">
+          <div className="flex flex-row space-x-3 items-center p-3">
+            <Avatar />
+            <Profile />
+          </div>
+          <div>
+            <SocialLinks />
+            <About />
+          </div>
         </div>
-        <div>
-          <SocialLinks />
-          <About />
-        </div>
-      </div>
-    </main>
+      </main>
+    </>
   )
 }
