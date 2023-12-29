@@ -9,14 +9,15 @@ import {
 } from "@phosphor-icons/react"
 
 const SocialLinks = () => {
+  const IconSize = 20
   const profileLinks = [
     {
       href: "https://facebook.com/fusemeoww",
-      LinkIcon: <FacebookLogo size={32} color="#F3F4F6" weight="bold" />,
+      LinkIcon: <FacebookLogo size={IconSize} color="#F3F4F6" weight="bold" />,
     },
     {
       href: "https://twitter.com/blueskychan_",
-      LinkIcon: <TwitterLogo size={32} color="#F3F4F6" weight="bold" />,
+      LinkIcon: <TwitterLogo size={IconSize} color="#F3F4F6" weight="bold" />,
     },
     {
       href: "https://t.me/blueskychan_",
