@@ -3,13 +3,15 @@
 @tailwind utilities;
 
 html {
-  --background-image: url("/illust_111261733_20231222_212212-min.webp");
+
+  --background-image: url("/bg.jpg");
   background-image: var(--background-image);
+ 
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
-  color: rgb(255, 255, 255);
+  color: #ffc6d7fc;
   height: 100%;
 }
 
