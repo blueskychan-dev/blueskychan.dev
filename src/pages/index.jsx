@@ -22,7 +22,7 @@ export default function Home() {
       <main
         className={`flex min-h-screen items-center justify-center ${inter.className}`}
       >
-        <div className="backdrop-blur-md bg-gray-700/50 rounded-lg p-3 max-w-md md:max-w-lg overflow-hidden overflow-ellipsis">
+        <div className="backdrop-blur-md bg-[#1b1327]/50 rounded-lg p-3 max-w-md md:max-w-lg overflow-hidden overflow-ellipsis">
           <div className="flex flex-row space-x-3 items-center p-3">
             <Avatar />
             <Profile />
