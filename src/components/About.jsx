@@ -1,5 +1,6 @@
 // About.js
 import Twemoji from "react-twemoji"
+import Link from "next/link"
 import PageLink from "./PageLink.jsx"
 const About = () => {
   return (
@@ -11,12 +12,12 @@ const About = () => {
       <div className="p-4 text-balance max-w-md ">
         <Twemoji options={{ className: "twemoji w-4 h-4 inline-block" }}>
           Hey, I'm blueskychan_, a 14-year-old student at{" "}
-          <a
-            className="p-1 bg-blue-600/20 transition-colors hover:bg-blue-700 font-bold"
+          <Link
+            className="border px-2.5 py-0.5 mr-1 rounded-lg hover:underline bg-blue-600/20 transition-colors hover:bg-blue-700 font-bold"
             href="https://bs.ac.th"
           >
-            Benjamarachanusorn
-          </a>
+             Benjamarachanusorn
+          </Link>
           School in Nonthaburi, Thailand 🇹🇭. I love computer and programming,
           with skills in C# and C++. Currently learning Python, JavaScript, and
           Go! I enjoy osu!, Minecraft, and Roblox. Music is randomly, and I've
