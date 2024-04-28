@@ -20,7 +20,7 @@ const SocialLinks = () => {
       LinkIcon: <TwitterLogo size={IconSize} color="#F3F4F6" weight="bold" />,
     },
     {
-      href: "https://t.me/blueskychan_",
+      href: "https://t.me/bskychan",
       LinkIcon: <TelegramLogo size={IconSize} color="#F3F4F6" weight="bold" />,
     },
     {

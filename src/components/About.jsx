@@ -20,8 +20,8 @@ const About = () => {
           </Link>
           School in Nonthaburi, Thailand 🇹🇭. I love computer and programming,
           with skills in C# and C++. Currently learning Python, JavaScript, and
-          Go! I enjoy osu!, Minecraft, and Roblox. Music is randomly, and I've
-          got a <PageLink to="/blog" text="blog" />! too—check it out! 😊
+          More! I play osu! for daily and other for sometimes, Music is randomly, and I've
+          got a <PageLink to="/blog" text="blog" />! too—check it out! :3
         </Twemoji>
       </div>
     </>

@@ -6,7 +6,7 @@ const Profile = () => {
           blueskychan_
         </span>
         <span className="font-extralight text-base md:text-xl">
-          she/they :3
+          she/her :3
         </span>
       </p>
       <div className="text-sm font-bold">Phapoom Saksri</div>
