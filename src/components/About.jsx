@@ -16,12 +16,13 @@ const About = () => {
             className="border px-2.5 py-0.5 mr-1 rounded-lg hover:underline bg-blue-600/20 transition-colors hover:bg-blue-700 font-bold"
             href="https://bs.ac.th"
           >
-             Benjamarachanusorn
+            Benjamarachanusorn
           </Link>
           School in Nonthaburi, Thailand 🇹🇭. I love computer and programming,
           with skills in C# and C++. Currently learning Python, JavaScript, and
-          More! I play osu! for daily and other for sometimes, Music is randomly, and I've
-          got a <PageLink to="/blog" text="blog" />! too—check it out! :3
+          More! I play osu! for daily and other for sometimes, Music is
+          randomly, and I've got a <PageLink to="/blog" text="blog" />!
+          too—check it out! :3
         </Twemoji>
       </div>
     </>
