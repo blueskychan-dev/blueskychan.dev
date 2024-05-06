@@ -3,10 +3,9 @@
 @tailwind utilities;
 
 html {
-
   --background-image: url("/bg.jpg");
   background-image: var(--background-image);
- 
+
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
