@@ -1,11 +1,11 @@
-import { Inter } from "next/font/google"
+//import { Mali } from "next/font/google"
 import About from "~/components/About"
 import Avatar from "~/components/Avatar"
 import Profile from "~/components/Profile"
 import SocialLinks from "~/components/SocialLinks"
 import Head from "next/head"
 
-const inter = Inter({ subsets: ["latin"] })
+//const inter = Mali({ subsets: ["latin"], weight: "400" })
 
 export default function Home() {
   return (
@@ -19,9 +19,7 @@ export default function Home() {
         />
       </Head>
 
-      <main
-        className={`flex min-h-screen items-center justify-center ${inter.className}`}
-      >
+      <main className={`flex min-h-screen items-center justify-center`}>
         <div className="backdrop-blur-md bg-[#1b1327]/50 rounded-lg p-3 max-w-md md:max-w-lg overflow-hidden overflow-ellipsis">
           <div className="flex flex-row space-x-3 items-center p-3">
             <Avatar />
