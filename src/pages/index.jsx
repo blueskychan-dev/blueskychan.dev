@@ -12,10 +12,11 @@ export default function Home() {
     <>
       <Head>
         <title>About blueskychan_ :3</title>
-        <meta property="og:title" content="Hello, World! >3" key="title" />
+        <meta name="theme-color" content="#FFC0CB" />
+        <meta property="og:title" content="Hello, World! <3" key="title" />
         <meta
           property="og:description"
-          content="About some stupid person call blueskychan, aka Fuse/Mind :3"
+          content="About some stupid person call blueskychan, aka Mind :3"
         />
       </Head>
 
