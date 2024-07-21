@@ -5,10 +5,12 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <body>
-        <Main />
-        <NextScript />
-        <script src="/random.js" />
+      <body className="flex backdrop-blur-sm flex-col justify-center items-center h-screen p-2">
+        <div className="">
+          <Main />
+          <NextScript />
+          <script src="/random.js" />
+        </div>
       </body>
     </Html>
   )
