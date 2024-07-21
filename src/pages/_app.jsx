@@ -15,7 +15,7 @@ const mali = Mali({ subsets: ["latin"], weight: "400" })
 function MyApp({ Component, pageProps }) {
   const router = useRouter()
 
-  const stright = router.query.stright !== undefined;
+  const stright = router.query.stright !== undefined
   useEffect(() => {
     if (stright) {
       document.body.classList.add(roboto.className)

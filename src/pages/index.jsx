@@ -21,7 +21,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.webp" sizes="any" />
       </Head>
 
-      <main className={`flex min-h-screen items-center justify-center`}>
+      <main>
         <div className="backdrop-blur-md bg-[#1b1327]/50 rounded-lg p-3 max-w-md md:max-w-lg overflow-hidden overflow-ellipsis">
           <div className="flex flex-row space-x-3 items-center p-3">
             <Avatar />
