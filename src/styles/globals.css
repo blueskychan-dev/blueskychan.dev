@@ -3,17 +3,35 @@
 @tailwind utilities;
 
 html {
-  --background-image: url("/bg.jpg");
-  background-image: var(--background-image);
+  position: relative;
+  min-height: 100%;
+  color: #ffc6d7fc;
+  overflow: hidden;
+}
 
+html::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  --background-image: url("/113909210_p0.jpg");
+  background-image: var(--background-image);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
-  color: #ffc6d7fc;
-  height: 100%;
+  filter: brightness(50%) blur(4px);
+  transform: scale(1.1);
 }
 
 body {
   height: 100%;
+}
+ 
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
