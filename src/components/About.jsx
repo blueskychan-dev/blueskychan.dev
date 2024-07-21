@@ -5,7 +5,7 @@ import PageLink from "./PageLink.jsx"
 const About = () => {
   return (
     <>
-      <span className="font-bold text-lg px-4">About</span>
+      <span className="font-bold text-lg px-4">About Me!</span>
       <div className="p-2">
         <div className="border-t md:border-t-2"></div>
       </div>

@@ -16,8 +16,9 @@ export default function Home() {
         <meta property="og:title" content="Hello, World! <3" key="title" />
         <meta
           property="og:description"
-          content="About some stupid person call blueskychan, aka Mind :3"
+          content="About some stupid person call blueskychan, or Mind :3"
         />
+        <link rel="icon" href="/favicon.webp" sizes="any" />
       </Head>
 
       <main className={`flex min-h-screen items-center justify-center`}>
