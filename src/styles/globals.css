@@ -16,3 +16,9 @@ body {
   background-size: cover;
   background-position: center center;
 }
+
+@media only screen and (orientation: portrait) {
+  body {
+    --background-image: url("/mobile.jpg");
+  }
+}

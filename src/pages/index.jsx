@@ -18,7 +18,6 @@ export default function Home() {
           property="og:description"
           content="About some stupid person call blueskychan, or Mind :3"
         />
-        <link rel="icon" href="/favicon.webp" sizes="any" />
       </Head>
 
       <main>
