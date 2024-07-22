@@ -42,6 +42,7 @@ export default function PostPage({ frontmatter, content }) {
   return (
     <>
       <Head>
+        <title>{frontmatter.title}</title>
         <meta property="og:type" content="article" />
         <meta property="og:title" content={frontmatter.title} />
         <meta property="og:description" content={frontmatter.desc} />
