@@ -26,6 +26,7 @@ function MyApp({ Component, pageProps }) {
     }
   }, [stright])
 
+
   return <Component {...pageProps} />
 }
 

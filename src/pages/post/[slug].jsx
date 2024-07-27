@@ -30,15 +30,14 @@ export async function getStaticProps({ params: { slug } }) {
 export default function PostPage({ frontmatter, content }) {
   const postTags = frontmatter.tags.map((tag) => (
     <div
-      className="inline-block border rounded-md font-bold text-lg mr-1 py-0.5 px-2.5 overflow-y-auto"
+      className="inline-block border rounded-md font-bold text-lg mr-1 py-0.5 px-2.5"
       key={tag.toString()}
     >
       {tag}
     </div>
   ))
-
   const proseClass =
-    "prose p-4 prose-invert prose-neutral mx-auto bg-gray-700/50 backdrop-blue-md backdrop-blur-md h-100 overflow-y-auto"
+    "prose p-4 prose-invert prose-neutral mx-auto bg-gray-700/50 backdrop-blue-md backdrop-blur-md h-100 overflow-y-auto h-screen"
   return (
     <>
       <Head>

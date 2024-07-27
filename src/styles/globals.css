@@ -20,5 +20,14 @@ body {
 @media only screen and (orientation: portrait) {
   body {
     --background-image: url("/mobile.jpg");
+    overflow: auto;
+  }
+}
+
+/* In case if device height is less than 900px */
+/* Notice: This design for small screen and mobile devices, scroll bar still be shown, will fix in next commit! <3 */
+@media only screen and (max-height: 900px) {
+  body {
+    overflow: auto;
   }
 }
