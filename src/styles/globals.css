@@ -8,7 +8,7 @@ body {
   color: #ffc6d7fc;
   overflow: hidden;
 
-  --background-image: url("/113909210_p0.jpg");
+  --background-image: url("/120913376_p0.png");
   background-image: var(--background-image);
 
   background-repeat: no-repeat;
@@ -19,7 +19,7 @@ body {
 
 @media only screen and (orientation: portrait) {
   body {
-    --background-image: url("/mobile.jpg");
+    --background-image: url("/mobile.png");
     overflow: auto;
   }
 }
