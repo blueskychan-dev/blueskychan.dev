@@ -6,7 +6,7 @@ const Avatar = () => {
       <div className="rounded-2xl overflow-hidden w-24" id="status">
         <Image
           priority={true}
-          src="/pfp.png"
+          src="/pfp.jpg"
           width={128}
           height={128}
           alt="Profile picture"
