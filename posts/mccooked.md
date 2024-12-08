@@ -297,7 +297,13 @@ However, geyser **already** solved about **unfair** knockback like few months/ye
 
 However this topic being drama for a hour and now it's quiet...
 
+We have done countless testing. There is no issues with Knockback on Geyser. They pretty much work the same way as the java player does.
 
+There is no advantage if you played on java nor bedrock. Since they both have the same combat experience. (We removed the combat cooldown.)
+
+### insert gifs here
+
+![giffer](http://localhost:3000/mctham-archive/kb-ffa-gif.gif)
 
 ### Summary
 > [Piyadon Chaengchenjai](https://github.com/HariUwU) and [Kanison Konkla](https://github.com/kanisonpoon) owns MCTham for now and we don't know how mctham will going in the futures...
