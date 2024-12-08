@@ -36,31 +36,35 @@ After that, I and Kanison Konkla talk with ThamTvMaster in Private Message about
 
 Fun fact: MCTham have so many problem with the lobby because of pocketmine 3, at the time pocketmine 4 didn't release yet and still in development with a lot of "bugs" but somehow we made the lobby away... (with a lot of unsupported features for building)
 
-However, I managed server and Kanison Konkla manage almost everything since i don't know about computer too much (nope, i don't have any computer and php knowledge in that time)
+I managed the server and Kanison Konkla manage almost everything else since i don't know about computer or php (i don't have access to computer and php knowledge at the time)
 
-However, server going great and few players (from ThamTvMaster) Interesting and getting popular from people and first successful gamemode is "SMP" (SS1/2)
+However, the server doing great and few players (from ThamTvMaster) and its getting popular from people playing and the first successful gamemode is "SMP" (SS1/2)
 
-I don't remember too much but in that time but, MinaseYu asking his friends for being admin in ThamTVMaster and main character in this story is come...
+I don't remember much, But If I remember correctly. MinaseYu was asking his friends if he wanted to be an admin in ThamTVMaster Discord Server and MCTham he said yes and this is where the story get started (SANCHO ARC 0)
 
-MinaseYu want let me to know about his friend "[Piyadon Chaengchenjai](https://github.com/HariUwU)" (Known as Cgggwtruck, The Fron Tv Minecraft, HariUwU or OmagariHare) and everyone (including Tham) starting to knowing him after he passed some parkour challenge and getting rewards and somehow he being admin of mctham in that time, I don't know because i start to forgot
+MinaseYu introoduce his friend "[Piyadon Chaengchenjai](https://github.com/HariUwU)" (Known as Cgggwtruck, The Fron Tv Minecraft, HariUwU or OmagariHare) and everyone (including ThamTVMaster) starting to knowing him after he did some parkour challenge and getting rewards and somehow he being an admin of mctham at the time, I don't know much because I have dementia.
 
-Looks like everything going great, new teams, new members and more?.... uhhhhh
+Looks like everything going great, new team, new members and more?.... uhhhhh
 
 ### First MCTham downfall (2022)
-I didn't think it will happen quickly but let me explain.
-Kanison Konkla in that time is kinda "kind" person, he giving some items to players but... looks like someone don't like this and need some changes...
+I didn't think it will happen so quickly but let me explain.
+Kanison Konkla at the time is well a "kind" person, he's giving items to players but someone doesn't like this and they said something need to be change...
 
-[Piyadon Chaengchenjai](https://github.com/HariUwU) with his teams start doing some it's very unexpected for us, due to admin can access server if they request it, they decide to change password and takeover everything from Kanison Konkla and doing anything with they own.
+[Piyadon Chaengchenjai](https://github.com/HariUwU) with his team doing some unexpected changes, because all admin can access the server if they requested it, they decide to change the password and takeover MCTham from Kanison Konkla and I, and they do anything they want on their own.
 
-And due to many drama came to Kanison Konkla like DMCA and etc, He getting more hated from the team (This will too long and i can't explain about this)
+And due to many drama, It's affecting Kanison Konkla like DMCA and etc, He's getting more hated from the team (This would be too long so I'm not explaining it here.)
 
-But due to current team in that time can't coding PHP for MCTham mini games, MCTham mini games has been cancelled and few things has been gone, only SMP is that available because the team can do TypeScript/JavaScript and bedrock addons need TS/JS to do it, and well. Going good... but not well...
+But because at the time, Our team can't code PHP for MCTham mini games, MCTham mini games has been cancelled and few things have been removed, only SMP is available because our team can do TypeScript/JavaScript and bedrock addons require TS/JS to make it wrk, and well. Going pretty good... but not so well...
 
 Looks like the main MCTham plan has been destroyed but everything still going,
 
 But in that time, I'm in both of side but I like to agree much with Kanison Konkla because the problem cannot be an enough reason to kick him out (and this server IS NOT PAY TO WIN)
 
 And after few session, MCTham getting problem about downtime (Yea, I can't founding more server) and finally, mctham doing a long shutdown and never back again... (it is all my fault....)
+
+Fun Fact: We used to have a domain called "mctham.net" but I forgot about it for like 2 years lol
+
+![1](http://localhost:3000/mctham-archive/mcthamdotnet.png)
 
 ### MCTham Rewritten Project (Forgetten Project)
 Since 2022 after Kanison Konkla has been kicked, i talk him to make new project "MCTham Rewritten", and he agreed, His invite some of his friend like "[aitji](https://github.com/aitji)" but sadly, due to few drama in current McTham + DMCA drama, we didn't have time and finally, this project...died.
