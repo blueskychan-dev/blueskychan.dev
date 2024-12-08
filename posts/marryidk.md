@@ -1,7 +1,7 @@
 ---
 title: "We are together again."
 desc: I'm with furrygang
-date: "7/12/2024"
+date: "8/12/2024"
 tags:
     - life
     - relationship
