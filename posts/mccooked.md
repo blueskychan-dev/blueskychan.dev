@@ -1,30 +1,30 @@
 ---
 title: "MCTham more like MCCooked, let me explain"
 desc: MCTham with endless drama....
-date: "7/12/2024"
+date: "8/12/2024"
 tags:
     - drama
     - minecraft server
 ---
 
-> บทความภาษาไทยจะมาเร็วๆนี้ค่ะ <3
+> This article is also supported by another language: [Thai](/post/mccooked-th)
 
 MCTham is the server that i made with my heart but now... something going wrong.... I want to explain but i may cooked but who care?
 
 ## What is MCTham?
 MCTham is a "Minecraft Server" founded in 2021 by [Phapoom Saksri](https://github.com/blueskychan-dev) and [Kanison Konkla](https://github.com/kanisonpoon) at the time MCTham was planned to be a thai minigames/smp server based on pocketmine and partner with a youtuber [ThamTVMaster](https://www.youtube.com/@ThamTvMaster), MCTham was doing very good when we release. here is few screenshots and picture from 2021:
 
-![1](http://localhost:3000/mctham-archive/1.jpg)
-![1](http://localhost:3000/mctham-archive/2.jpg)
-![1](http://localhost:3000/mctham-archive/3.jpg)
+![1](/mctham-archive/1.jpg)
+![1](/mctham-archive/2.jpg)
+![1](/mctham-archive/3.jpg)
 
-* Thanks picture from ThamTVMaster discord
+> Thanks picture from [ThamTVMaster discord](https://discord.gg/urRKa7S) <3
 
-This is the [First Ever Live Stream](https://www.youtube.com/watch?v=DHFFlpws4Ww) on MCTham, surprise is that server has been known in ThamTvMaster birthday. # ???
+This is the [First Ever Live Stream](https://www.youtube.com/watch?v=DHFFlpws4Ww) on MCTham, surprise is that server has been known in ThamTvMaster birthday.
 
-MCTham was really successful and popular during SS1.[1](https://www.youtube.com/watch?v=URXqntLwEPI) and SS.[2](https://www.youtube.com/watch?v=jYe8J3ML3kI)
+MCTham was really successful and popular during SS.[1](https://www.youtube.com/watch?v=URXqntLwEPI) and SS.[2](https://www.youtube.com/watch?v=jYe8J3ML3kI)
 
-![1](http://localhost:3000/mctham-archive/ss2-hunter.png)
+![1](/mctham-archive/ss2-hunter.png)
 > MCTham Player hunter event in SS2
 
 ### MCTham History (Lore)
@@ -54,7 +54,7 @@ Kanison Konkla at the time is well a "kind" person, he's giving items to players
 
 And due to many drama, It's affecting Kanison Konkla like DMCA and etc, He's getting more hated from the team (This would be too long so I'm not explaining it here.)
 
-But because at the time, Our team can't code PHP for MCTham mini games, MCTham mini games has been cancelled and few things have been removed, only SMP is available because our team can do TypeScript/JavaScript and bedrock addons require TS/JS to make it wrk, and well. Going pretty good... but not so well...
+But because at the time, Our team can't code PHP for MCTham mini games, MCTham mini games has been cancelled and few things have been removed, only SMP is available because our team can do TypeScript/JavaScript and bedrock addons require TS/JS to make it work, and well. Going pretty good... but not so well...
 
 Looks like the main MCTham plan has been destroyed but everything still going,
 
@@ -64,10 +64,10 @@ And after few session, MCTham getting problem about downtime (Yea, I can't found
 
 Fun Fact: We used to have a domain called "mctham.net" but I forgot about it for like 2 years lol
 
-![1](http://localhost:3000/mctham-archive/mcthamdotnet.png)
+![1](/mctham-archive/mcthamdotnet.png)
 
 ### MCTham Rewritten Project (Forgetten Project)
-Since 2022 after Kanison Konkla has been kicked, i talk him to make new project "MCTham Rewritten", and he agreed, His invite some of his friend like "[aitji](https://github.com/aitji)" but sadly, due to few drama in current McTham + DMCA drama, we didn't have time and finally, this project...died.
+Since 2021(Q3) after Kanison Konkla has been kicked, i talk him to make new project "MCTham Rewritten", and he agreed, His invite some of his friend like "[aitji](https://github.com/aitji)" but sadly, due to few drama in current McTham + DMCA drama, we didn't have time and finally, this project...died.
 
 However, if you asking, the DMCA is real? [I think this things can tell you](https://github.com/github/dmca/blob/master/2022/04/2022-04-04-hive.md), yea Kanison Konkla dump the hive resource or map i forgot and upload to github and yea, dmca'd
 
@@ -92,14 +92,14 @@ First, this is my plan about MCTham on 2024
 From this list, everything looks good, alright?...
 
 In first, MCTham SMP has been spoiler in ThamTvMaster Discord
-![a](http://localhost:3000/mctham-archive/hmm.png)
+![a](/mctham-archive/hmm.png)
 
 - Did you know? MCTham in 2024 in first use same team with [notmycode!](https://notmycode.dev)
 
 and MCTham (SMP) has back to life on 27 October 2024 with few features
 
 - Minecraft Java (Purpur) based
-- Bedrock (Geyser) and Java support (Only premium account)
+- Bedrock (Geyser) and Java support (Only premium account for java)
 
 and not too much, only this.
 
@@ -137,7 +137,7 @@ This maybe linked to Previous downfall but let me explain...
 - Yes 60% 3 votes
 - No 40% 2 votes
 
-![poll](http://localhost:3000/mctham-archive/poll.png)
+![poll](/mctham-archive/poll.png)
 And [Pakrn c.](https://github.com/bluestar-b) brings luckperms back but someone is NOT OKAY with that... [Piyadon Chaengchenjai](https://github.com/HariUwU) and [Kanison Konkla](https://github.com/kanisonpoon)
 
 But why? Because
@@ -147,18 +147,24 @@ But why? Because
 
 after this update, [Piyadon Chaengchenjai](https://github.com/HariUwU) like ~~communist~~ and uh decide to quit for a while but... before he quit...
 
-![a](http://localhost:3000/mctham-archive/poll.png)
-![a](http://localhost:3000/mctham-archive/a.png)
-![a](http://localhost:3000/mctham-archive/aa.png)
-![a](http://localhost:3000/mctham-archive/aaa.png)
-![a](http://localhost:3000/mctham-archive/aaaa.png)
+![a](/mctham-archive/poll.png)
+![a](/mctham-archive/a.png)
+![a](/mctham-archive/aa.png)
+![a](/mctham-archive/aaa.png)
+![a](/mctham-archive/aaaa.png)
 
 > I mean, his talking not like normal "person", I don't know this is so cringe or not but i feel like that 
+
 And uh, we decide to manage MCTham with ourself but sometimes proxy server have issues and [Piyadon Chaengchenjai](https://github.com/HariUwU) doing a litte bit of laughing, but however we solved it in 10 mintues
+
+![a](/mctham-archive/ego727.png)
+![a](/mctham-archive/ego727-1.png)
+![a](/mctham-archive/ego727-2.png)
+
 
 ..Sancho arc is not over.
 
-![a](http://localhost:3000/mctham-archive/femboypp.jpg)
+![a](/mctham-archive/femboypp.jpg)
 > Let this chat explain...
 
 First of all, he want "vanilla" too much... (Did you know? He want to takeover MCTham because he want to turned this to "vanilla" and that is one of reason of previous downfall) (But MCTham is no longer "vanilla" because "[velocity](https://papermc.io/software/velocity)" and "[purpurMC](https://purpurmc.org)")
@@ -169,24 +175,24 @@ and Second, he trusted that him and [Kanison Konkla](https://github.com/kanisonp
 
 But we ignore him but uh, HE WANTS MCTHAM TOO MUCH and we few things happen like we can't transfeter to his server because WE PASUED MCTHAM?
 
-![a](http://localhost:3000/mctham-archive/longdiscord.jpg)
+![a](/mctham-archive/longdiscord.jpg)
 
 And he add me to group chat and explaining like his house got nuked and [Pakrn c.](https://github.com/bluestar-b) using cheating command etc, but this will too long and not much useful, i will show only 
 important infomation is it will afftced to all players
 
 After he talking about "your data is not right" and will confirmed to reverse/reset world, i tell asked him about "responsibility" and here is answer:
 
-![abc](http://localhost:3000/mctham-archive/abc.png)
-![abc](http://localhost:3000/mctham-archive/abc1.png)
+![abc](/mctham-archive/abc.png)
+![abc](/mctham-archive/abc1.png)
 
 > Keep in mind: message "destroy by gamemode" his meaning house being nuked by using gamemode.
 
-To be fair for everyone, I have full chat about house nuking, player data and etc in [here!](http://localhost:3000/mctham-archive/spicy.zip)
+To be fair for everyone, I have full chat about house nuking, player data and etc in [here!](/mctham-archive/spicy.zip)
 
 
 a day later.... he said this.......
 
-![war](http://localhost:3000/mctham-archive/war.png)
+![war](/mctham-archive/war.png)
 
 After few talk in voice chat, he said "no one own mctham" and uh, i don't know about no one tell current mctham is fake because
 
@@ -195,17 +201,19 @@ After few talk in voice chat, he said "no one own mctham" and uh, i don't know a
 
 I can't remember too much but after few talks in voice chat, we decide to check his HP laptop again after he said "I already solved this (fan issues with unknown way)" with [Kanison Konkla](https://github.com/kanisonpoon) 
 
-However after few benchmark, i decide to let him manage but waiting update from my side.
+However after few [benchmark](https://browser.geekbench.com/v6/cpu/8912168), i decide to let him manage but waiting update from my side.
 
 Few days later...
 After few talks with [Pakrn c.](https://github.com/bluestar-b) and [Pannarat Wiriyaarritham](https://github.com/PannaratWiriyaarritham), i decide to make agreement but it's kinda "unfair" but let [Piyadon Chaengchenjai](https://github.com/HariUwU) can own MCTham under agreement but something going wrong...
 
 
-![a](http://localhost:3000/mctham-archive/cook-myself.png)
+![a](/mctham-archive/cook-myself.png)
 
 However, if you see, HE will WON'T help me to apply IT if i still don't edited any "agreement"
 > Tiny explain: I'm decide to apply to same college with [Piyadon Chaengchenjai](https://github.com/HariUwU), however after this drama. I feel i walking wrong way... (I have problem to move from DBT to IT, that why i need his help)
+> 
 However, I don't want to make **more** drama with him and i decide to giving mctham head project to him...
+
 > Notice: Giving MCTham head project mean, his manage anything and I will won't give a fuck if project being downfall or anything fails because he said: [Piyadon Chaengchenjai](https://github.com/HariUwU) and [Kanison Konkla](https://github.com/kanisonpoon) can do it but who knows?
 
 And at first, he promise that he will responsible for all damange but, let see this after MCTham back to his hand:
@@ -213,7 +221,7 @@ And at first, he promise that he will responsible for all damange but, let see t
 > However, he didn't "responsible" with this damange because he can't op or use any cheat commands to help... also no anyone report and he didn't talk about this in annocument
 
 Also i forgot to tell you but i need to back to this topic.
-After he quit from group chat for a while, we already do a talk about luckperms and etc in notmycode stages but he decide to **quiet** and let [Kanison Konkla](https://github.com/kanisonpoon) asnwer instead and both of them didn't answer it. (They answer a litte bit but not enough...) I talk them why you don't answer too much and look like [Kanison Konkla](https://github.com/kanisonpoon) have technical issues, well it's fine
+After he quit from group chat for a while, we already do a talk about luckperms and etc in notmycode stages but he decide to **quiet** and let [Kanison Konkla](https://github.com/kanisonpoon) answer instead and both of them didn't answer it. (They answer a litte bit but not enough...) I talk them why you don't answer too much and look like [Kanison Konkla](https://github.com/kanisonpoon) have technical issues, well it's fine
 
 Looks like Piyadon Chaengchenjai don't like to talk to stages but it's fine...
 However, [here is video of talking if you want (thai)](https://youtu.be/icioXuyVwKY?si=s1yZiuImYX9z1Sx-)
@@ -234,16 +242,16 @@ I talking about how useful /sethome and automatic tree cut but they said: "idc, 
 Did you know? Piyadon Chaengchenjai and Kanison Konkla kinda don't care about pronouns and we just mad a littie bit...
 
 Before this happen, [Warathep Panthongkham](https://github.com/UnitieG) just compain about server performance and uh
-![ego](http://localhost:3000/mctham-archive/ego.png)
+![ego](/mctham-archive/ego.png)
 > Kinda "ego" for me, I don't know
 
 And uh, [Warathep Panthongkham](https://github.com/UnitieG) got banned for caught for cheating but uh
 
-![ego2](http://localhost:3000/mctham-archive/ego2.png)
+![ego2](/mctham-archive/ego2.png)
 > I will won't explain more but look with yourself
 
 How about Piyadon Chaengchenjai?
-![kick](http://localhost:3000/mctham-archive/kick.png)
+![kick](/mctham-archive/kick.png)
 > He got kicked from notmycode
 
 After mixing all drama about both of them and uh, homophobic i guess?
@@ -266,10 +274,10 @@ By doing this, we doing something that MCTham "doesn't" have
 - 3. Anti-grief, luckperms for permission manage and few more to make deeka better than "MCTham"
 
 However, this is few pic from deeka if you want to see:
-![deeka-lobby](http://localhost:3000/mctham-archive/deeka.png)
+![deeka-lobby](/mctham-archive/deeka.png)
 > Deeka Lobby
 
-![deeka-lobby](http://localhost:3000/mctham-archive/deeka-smp.png)
+![deeka-lobby](/mctham-archive/deeka-smp.png)
 > Deeka SMP
 
 
@@ -291,7 +299,7 @@ However, you think deeka born and someone will **don't** have drama with them? l
 
 While ThamTvMaster stream our server, [Kanison Konkla](https://github.com/kanisonpoon) Direct message to me with this message:
 
-![ok](http://localhost:3000/mctham-archive/ok.png)
+![ok](/mctham-archive/ok.png)
 
 However, geyser **already** solved about **unfair** knockback like few months/year ago and we already tested on our side and nothing wrong.
 
@@ -306,4 +314,8 @@ However this topic being drama for a hour and now it's quiet...
 
 I hope this things will getting any updates soon and yea, here is all mctham drama begin and never end...
 
-- Last updated: 07 Dec 2024
+Credit:
+> [Warathep Panthongkham](https://github.com/UnitieG) - Improve english and this blog
+
+
+- Last updated: 08 Dec 2024
