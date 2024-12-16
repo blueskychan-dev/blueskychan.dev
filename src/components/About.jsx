@@ -11,7 +11,7 @@ const About = () => {
       </div>
       <div className="p-4 text-balance max-w-md ">
         <Twemoji options={{ className: "twemoji w-4 h-4 inline-block", base: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/' }}>
-          Hey, I'm blueskychan_, a 14-year-old student at{" "}
+          Hey, I'm blueskychan_, a 15-year-old student at{" "}
           <Link
             className="border px-2.5 py-0.5 mr-1 rounded-lg hover:underline bg-blue-600/20 transition-colors hover:bg-blue-700 font-bold"
             href="https://bs.ac.th"
