@@ -7,7 +7,7 @@ export default function handler(req, res) {
         return;
     }
 
-    const random = Math.floor(Math.random() * 3) + 1; // Generate random number 1-3
+    const random = Math.floor(Math.random() * 4) + 1; // Generate random number 1-3
     const imagePath = path.join(process.cwd(), "public", "sekai", `${random}.jpeg`);
 
     // Check if the image file exists
