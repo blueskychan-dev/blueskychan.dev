@@ -12,7 +12,7 @@ const Avatar = () => {
           alt="Profile picture"
         />
       </div>
-      <Tooltip anchorSelect="#status" content="What are you looking at?" />
+      <Tooltip anchorSelect="#status" content="<3" />
     </>
   )
 }

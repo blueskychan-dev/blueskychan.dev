@@ -7,8 +7,8 @@ export default function handler(req, res) {
         return;
     }
 
-    const random = Math.floor(Math.random() * 4) + 1; // Generate random number 1-3
-    const imagePath = path.join(process.cwd(), "public", "sekai", `${random}.jpeg`);
+    const random = Math.floor(Math.random() * 5) + 1; // Generate random number 1-6
+    const imagePath = path.join(process.cwd(), "public", "wallpaper", `${random}.jpeg`);
 
     // Check if the image file exists
     if (!fs.existsSync(imagePath)) {
