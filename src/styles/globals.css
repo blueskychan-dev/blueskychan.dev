@@ -8,7 +8,7 @@ body {
   color: #ffc6d7fc;
   overflow: hidden;
 
-  --background-image: url("/api/random-sekai-picture");
+  --background-image: url("/api/random-background-picture");
   background-image: var(--background-image);
 
   background-repeat: no-repeat;
