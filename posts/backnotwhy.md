@@ -1,7 +1,7 @@
 ---
 title: "I'm back but not the same."
 desc: This back to normal but not the same!
-date: "28/01/2025"
+date: "28-01-2025"
 tags:
     - website
     - domain
