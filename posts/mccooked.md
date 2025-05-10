@@ -1,7 +1,7 @@
 ---
 title: "MCTham more like MCCooked, let me explain"
 desc: MCTham with endless drama....
-date: "8/12/2024"
+date: "8-12-2024"
 tags:
     - drama
     - minecraft server

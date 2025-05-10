@@ -1,7 +1,7 @@
 ---
 title: "Goodbye fusemeow.me, Hello blueskychan.dev"
 desc: Hello world!
-date: "28/12/2023"
+date: "28-12-2023"
 tags:
   - new home
   - new stuff

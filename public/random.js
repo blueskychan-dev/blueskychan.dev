@@ -6,7 +6,7 @@ console.log("Sometimes this world is great, but sometimes it sucks.... :c")
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
 sleep(2500).then(() => {
   console.log(
-    "%cI 🫶 @ahenyao! (so much) <3",
+    "%c Something went wrong... :c",
     "color: #FF69B4; font-size: 20px; font-weight: bold;",
   )
   console.log(
