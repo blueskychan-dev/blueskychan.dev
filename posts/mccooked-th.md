@@ -1,7 +1,7 @@
 ---
 title: "MCTham อาจจะเน่ากว่าที่คิด...ให้หนูพูดเถอะ"
 desc: MCTham with endless drama....
-date: "8-12-2024"
+date: "12-08-2024"
 tags:
     - drama
     - minecraft server
