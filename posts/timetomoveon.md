@@ -1,7 +1,7 @@
 ---
 title: "Moving On from the Past"
 desc: "Archiving my old 'educational' tools on GitHub — a personal reflection on growth, learning, and letting go."
-date: "10-05-2025"
+date: "05-10-2025"
 tags:
   - GitHub
   - Reflection

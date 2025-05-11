@@ -10,32 +10,36 @@ export async function getStaticProps() {
   const posts = files
     .filter((fileName) => !fileName.endsWith("-th.md"))
     .map((fileName) => {
-      const slug = fileName.replace(".md", "")
-      const readFile = fs.readFileSync(`posts/${fileName}`, "utf-8")
-      const { data: frontmatter } = matter(readFile)
-      
-      // Fix date formatting - handle both DD-MM-YYYY and other formats
-      let formattedDate = frontmatter.date;
-      if (frontmatter.date && frontmatter.date.includes('-')) {
-        const [day, month, year] = frontmatter.date.split('-');
-        if (day && month && year) {
-          formattedDate = new Date(`${month}/${day}/${year}`).toLocaleDateString('en-US', {
-            year: 'numeric',
-            month: 'long',
-            day: 'numeric'
-          });
-        }
-      }
-      
-      return {
-        slug,
-        frontmatter: {
-          ...frontmatter,
-          formattedDate: formattedDate || frontmatter.date
-        },
-      }
-    })
-    .sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date))
+  const slug = fileName.replace(".md", "")
+  const readFile = fs.readFileSync(`posts/${fileName}`, "utf-8")
+  const { data: frontmatter } = matter(readFile)
+
+  const rawDate = frontmatter.date
+  const parsedDate = new Date(rawDate)
+
+  const isValidDate = !isNaN(parsedDate.getTime())
+
+  return {
+    slug,
+    frontmatter: {
+      ...frontmatter,
+      formattedDate: isValidDate
+        ? parsedDate.toLocaleDateString("en-US", {
+            year: "numeric",
+            month: "long",
+            day: "numeric",
+          })
+        : "Invalid Date",
+      parsedDate: isValidDate ? parsedDate.toISOString() : null,
+    },
+  }
+})
+.sort((a, b) => {
+  const dateA = a.frontmatter.parsedDate ? new Date(a.frontmatter.parsedDate) : new Date(0)
+  const dateB = b.frontmatter.parsedDate ? new Date(b.frontmatter.parsedDate) : new Date(0)
+  return dateB.getTime() - dateA.getTime()
+})
+
 
   return {
     props: {
@@ -56,7 +60,10 @@ export default function Blog({ posts }) {
       if (sortBy === "letter") {
         return a.frontmatter.title.localeCompare(b.frontmatter.title)
       } else {
-        return new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
+        return (
+          new Date(b.frontmatter.parsedDate).getTime() -
+          new Date(a.frontmatter.parsedDate).getTime()
+        )
       }
     })
 
@@ -72,7 +79,9 @@ export default function Blog({ posts }) {
 
       <div className="p-4 md:p-6 backdrop-blur-md bg-gray-800/50 rounded-lg max-w-7xl mx-auto">
         <h1 className="text-2xl md:text-3xl font-bold mb-2 text-center text-[#FFC0CB]">Blog</h1>
-        <p className="text-center text-gray-300 mb-4 md:mb-6 text-sm md:text-base">All of my thoughts and writings :3</p>
+        <p className="text-center text-gray-300 mb-4 md:mb-6 text-sm md:text-base">
+          All of my thoughts and writings :3
+        </p>
 
         {/* Search & Sort */}
         <div className="flex flex-col gap-3 md:gap-4 md:flex-row items-start md:items-center mb-4 md:mb-6 bg-gray-700/50 p-3 md:p-4 rounded-lg">
