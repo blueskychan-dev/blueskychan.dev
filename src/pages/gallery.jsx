@@ -50,7 +50,7 @@ const Gallery = () => {
         />
       </Head>
 
-      <div className="p-4 backdrop-blur-md bg-gray-800/50 rounded-lg">
+      <div className="p-4 backdrop-blur-md bg-gray-800/50 rounded-lg mt-4">
         <h1 className="text-2xl font-bold mb-2 text-center text-[#FFC0CB]">Gallery</h1>
         <p className="text-center text-gray-300 mb-4">All of my stupid pics to show :3</p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
