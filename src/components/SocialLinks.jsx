@@ -12,7 +12,7 @@ const SocialLinks = () => {
   const IconSize = 20
   const profileLinks = [
     {
-      href: "https://facebook.com/fusemeoww",
+      href: "https://facebook.com/mindmeoww",
       LinkIcon: <FacebookLogo size={IconSize} color="#F3F4F6" weight="bold" />,
     },
     {
