@@ -1,6 +1,21 @@
 {
     "images": [
       {
+        "path": "gallerypics/meowgirlschool.jpg",
+        "description": "mind but girlmode (thanks @latenightdef good mommy :3)",
+        "date": "2025-08-06"
+      },
+      {
+        "path": "gallerypics/teenoi-latenightbirthday.jpg",
+        "description": "Late Night Defender (mommy) birthday party :3",
+        "date": "2025-08-06"
+      },
+      {
+        "path": "gallerypics/fossasia-iat.jpg",
+        "description": "Presention about iAmTeacher project at fossasia july event  (30 july)",
+        "date": "2025-07-30"
+      },
+      {
         "path": "gallerypics/linuxtransuserscollab.jpg",
         "description": "IRL Meeting with Linux users who are trans and oss enjoyers (ttt-org members/founder)",
         "date": "2025-06-21"

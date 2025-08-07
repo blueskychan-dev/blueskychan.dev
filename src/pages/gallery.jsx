@@ -50,7 +50,7 @@ const Gallery = () => {
         />
       </Head>
 
-      <div className="p-4 backdrop-blur-md bg-gray-800/50 rounded-lg mt-[1000px] md:mt-4">
+      <div className="p-4 backdrop-blur-md bg-gray-800/50 rounded-lg mt-[1450px] md:mt-4">
         <h1 className="text-2xl font-bold mb-2 text-center text-[#FFC0CB]">Gallery</h1>
         <p className="text-center text-gray-300 mb-4">All of my stupid pics to show :3</p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -64,7 +64,7 @@ const Gallery = () => {
                 <img
                   src={image.path}
                   alt={image.description}
-                  className="w-full h-48 object-cover group-hover:blur-sm transition duration-300"
+                  className="w-full h-[140px] object-cover group-hover:blur-sm transition duration-300"
                 />
                 <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 bg-black bg-opacity-50">
                   <p className="text-white text-lg font-semibold">View Image</p>
