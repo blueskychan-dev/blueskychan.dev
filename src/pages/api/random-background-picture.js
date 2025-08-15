@@ -7,7 +7,7 @@ export default function handler(req, res) {
         return;
     }
 
-    const random = Math.floor(Math.random() * 5) + 1; // Generate random number 1-6
+    const random = Math.floor(Math.random() * 11) + 1; // Generate random number 1-12
     const imagePath = path.join(process.cwd(), "public", "wallpaper", `${random}.jpeg`);
 
     // Check if the image file exists

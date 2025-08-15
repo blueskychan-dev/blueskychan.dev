@@ -4,6 +4,23 @@ import Head from "next/head";
 const Gallery = () => {
   const [images, setImages] = useState([]);
   const [selectedImage, setSelectedImage] = useState(null);
+  const [isPortrait, setIsPortrait] = useState(false);
+
+  useEffect(() => {
+    const checkOrientation = () => {
+      setIsPortrait(window.matchMedia("(orientation: portrait)").matches);
+    };
+
+    // Check on mount
+    checkOrientation();
+    
+    // Add listener for orientation changes
+    window.addEventListener('resize', checkOrientation);
+    
+    return () => {
+      window.removeEventListener('resize', checkOrientation);
+    };
+  }, []);
 
   useEffect(() => {
     const fetchImages = async () => {
@@ -23,8 +40,14 @@ const Gallery = () => {
   }, []);
 
   const handleImageClick = (image) => {
-    document.body.style.overflow = "hidden";
-    setSelectedImage(image);
+    if (isPortrait) {
+      // In portrait mode, open the raw image directly
+      window.open(image.path, '_blank');
+    } else {
+      // In landscape mode, show the popup
+      document.body.style.overflow = "hidden";
+      setSelectedImage(image);
+    }
   };
 
   const closePopup = () => {
@@ -67,7 +90,9 @@ const Gallery = () => {
                   className="w-full h-[140px] object-cover group-hover:blur-sm transition duration-300"
                 />
                 <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 bg-black bg-opacity-50">
-                  <p className="text-white text-lg font-semibold">View Image</p>
+                  <p className="text-white text-lg font-semibold">
+                    {isPortrait ? "Open Image" : "View Image"}
+                  </p>
                 </div>
               </div>
               <div className="p-4">
@@ -78,7 +103,7 @@ const Gallery = () => {
           ))}
         </div>
 
-        {selectedImage && (
+        {!isPortrait && selectedImage && (
           <div
             className="fixed inset-0 flex items-center justify-center z-50 backdrop-blur-sm"
             onClick={handleBackdropClick}
