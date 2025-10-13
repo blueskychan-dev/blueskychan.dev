@@ -1,9 +1,10 @@
 {
   "name": "mindyabi",
-  "version": "0.1.0",
+  "version": "7.2.7",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "next telemetry disable",
     "build": "next build",
     "start": "next start",
     "format": "prettier . --write"

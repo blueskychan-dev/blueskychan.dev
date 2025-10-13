@@ -22,9 +22,12 @@ const About = () => {
           with skills in C# and C++. Currently learning Python, JavaScript, and
           More! I play osu! for daily and other for sometimes, Music is
           randomly, and I've got a <PageLink to="/blog" text="blog" />!
-          too—check it out! :3<br/>
+          too—check it out! :3<br />
           (Also check out my{" "}
           <PageLink to="/gallery" text="gallery" /> too! :3)
+          <br />
+          (Need all my socials? Visit the{" "}
+          <PageLink to="/links" text="links" />!)
         </Twemoji>
       </div>
     </>

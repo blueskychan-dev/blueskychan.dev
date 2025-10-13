@@ -77,7 +77,7 @@ export default function Blog({ posts }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
-      <div className="p-4 md:p-6 backdrop-blur-md bg-gray-800/50 rounded-lg max-w-7xl mx-auto">
+      <div className="p-4 md:p-6 backdrop-blur-md bg-gray-800/50 rounded-lg max-w-7xl mx-auto h-screen">
         <h1 className="text-2xl md:text-3xl font-bold mb-2 text-center text-[#FFC0CB]">Blog</h1>
         <p className="text-center text-gray-300 mb-4 md:mb-6 text-sm md:text-base">
           All of my thoughts and writings :3

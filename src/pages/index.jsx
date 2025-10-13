@@ -18,6 +18,10 @@ export default function Home() {
           property="og:description"
           content="About some stupid person call blueskychan, or Mind :3"
         />
+        <link
+          href="https://f-social.techtransthai.org/@blueskychan_"
+          rel="me"
+        />
       </Head>
 
       <main>

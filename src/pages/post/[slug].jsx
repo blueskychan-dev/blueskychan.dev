@@ -72,7 +72,7 @@ export default function PostPage({ frontmatter, content, slug }) {
   ))
 
   const proseClass =
-    "prose p-4 prose-invert prose-neutral mx-auto bg-gray-700/50 backdrop-blue-md backdrop-blur-md h-100 overflow-y-auto h-screen"
+    "prose p-4 prose-invert prose-neutral mx-auto bg-gray-700/50 backdrop-blue-md h-100 overflow-y-auto h-screen"
 
   return (
     <>

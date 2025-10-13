@@ -5,7 +5,7 @@ const ProfileLink = ({ href, LinkIcon }) => {
     <Link
       href={href}
       aria-label={href}
-      className={`bg-base-200 mx-3 rounded-lg p-1.5 transition-transform duration-200 ease-in-out hover:scale-110`}
+      className="bg-base-200 m-2 rounded-lg p-1.5 transition-transform duration-200 ease-in-out hover:scale-110"
     >
       {LinkIcon}
     </Link>
